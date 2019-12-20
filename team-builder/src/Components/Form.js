@@ -31,8 +31,8 @@ const Form = props => {
 
             <form onSubmit={submitForm}>
 
-                <h1>Add a new team member below: </h1><br />
-                <Card></Card>
+                <h1>Add a new team member below: </h1>
+                
                 <label htmlFor="name">
                     Name: { " " }
                 </label>
@@ -44,7 +44,7 @@ const Form = props => {
                     value={member.name}
                     />
       
-                <br /><br />
+                <br/>
 
 
 
@@ -58,7 +58,7 @@ const Form = props => {
                     onChange={changeHandler}
                     value={member.email}
                     />
-                <br /><br />
+                <br />
 
 
 

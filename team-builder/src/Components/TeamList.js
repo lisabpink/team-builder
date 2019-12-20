@@ -6,13 +6,13 @@ const TeamList = props => {
    
     return (
 
-        <div>
+        <div className ="note">
 
             {props.teamList.map(member => {
 
                 return (
 
-                    <div key = {member.id}>
+                    <div key= {member.id}>
                         
                         <br />
 
